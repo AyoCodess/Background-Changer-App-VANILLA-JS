@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="1151dfa8beef5a0de9be6bc6cfeed70c" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="9164ad3dce4f711314e61814995354b1">
+
+    <title>BC APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Background Changer App</h1>
+
+      <div class="container2">
+        <p>
+          Select two colours by hovering over the color boxes below, the CSS
+          code update automatically
+        </p>
+      </div>
+
+      <div class="container3">
+        <input type="color" value="#191970" name="color1" class="inputField color1">
+        <input type="color" value="#191970" name="color1" class="inputField color2">
+      </div>
+
+      <h2>Your CSS Code:</h2>
+      <h3></h3>
+    </div>
+
+    <script src="e71eb6aca88c8b11b5377ea3facdf59a"></script>
+  </body>
+</html>

@@ -1,59 +1,25 @@
-let addTodoButton = document.querySelector(".addTodo");
-let todoContainer = document.querySelector(".todoContainer");
-let inputField = document.querySelector(".inputField");
+"use-strict";
 
-addTodoButton.addEventListener("click", function () {
-  /// validation
-  if (inputField.value.length > 0) {
-    /// create new item
-    let newListItem = document.createElement("p");
+const css = document.querySelector(".inputField2");
+const color1 = document.querySelector(".color1");
+const color2 = document.querySelector(".color2");
+const bgColor = document.getElementById("bgColor");
 
-    /// adding class to new item so we can style it
-    newListItem.classList.add("item");
+const bgChanger = function () {
+  bgColor.style.background =
+    "linear-gradient(to right bottom," +
+    color1.value +
+    "," +
+    color2.value +
+    ")";
 
-    /// adding input field text to new item
-    newListItem.innerText = inputField.value;
+  css.value =
+    "linear-gradient(to right bottom," +
+    color1.value +
+    "," +
+    color2.value +
+    ")";
+};
 
-    /// appending the new item to container
-    todoContainer.appendChild(newListItem);
-
-    /// create delete button
-    let deleteButton = document.createElement("button");
-
-    /// adding text to delete button
-
-    deleteButton.innerText = "Delete";
-
-    /// adding a class to delete button so we can style it
-    deleteButton.classList.add("deleteButton");
-
-    /// append button to new list element
-
-    newListItem.append(deleteButton);
-
-    /// clearing the input field
-    inputField.value = "";
-
-    /// strike through
-    // newListItem.addEventListener("click", function () {
-    //   dele.style.textDecoration = "line-through";
-    // });
-
-    /// deleting an item
-    deleteButton.addEventListener("click", function () {
-      todoContainer.removeChild(newListItem);
-    });
-
-    /// item turns red when clicked
-
-    newListItem.addEventListener("click", function () {
-      newListItem.style.color = "red";
-    });
-
-    /// double clicked it turns back to black
-
-    newListItem.addEventListener("dblclick", function () {
-      newListItem.style.color = "black";
-    });
-  }
-});
+color1.addEventListener("input", bgChanger);
+color2.addEventListener("input", bgChanger);

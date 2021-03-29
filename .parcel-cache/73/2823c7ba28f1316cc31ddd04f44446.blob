@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 200px;
+  margin: 5rem 5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField {
+  border-radius: 500px;
+  border-width: 0.1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  border: gray;
+  font-size: 2rem;
+}
+
+.container2 {
+  margin: 2rem 5rem;
+  display: flex;
+  width: 200px;
+}
+/*# sourceMappingURL=index.HASH_REF_018db93862fa12a059426423c5ebeb1d.css.map */

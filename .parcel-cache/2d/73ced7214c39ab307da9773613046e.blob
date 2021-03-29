@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: lato;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 5rem 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.container2 p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container3 {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inputField {
+  border-radius: 500px;
+  border-width: 0.1rem;
+  margin-right: 0.5rem;
+  padding: 0.1rem;
+  box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  border: gray;
+  font-size: 1rem;
+  margin-top: 1rem;
+  max-width: 6rem;
+  max-height: 5rem;
+}
+/*# sourceMappingURL=index.HASH_REF_018db93862fa12a059426423c5ebeb1d.css.map */
