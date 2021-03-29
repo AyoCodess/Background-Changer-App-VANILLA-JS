@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html id="bgColor" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+    <link href="ca1317457587979f793f9176fe8959b1" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="d342a24492e4d07efad50a701a61f04a">
+
+    <title>BC APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Background Changer App</h1>
+
+      <div class="container2">
+        <p>
+          Select two colours by hovering over the color boxes below, the CSS
+          code will update automatically
+        </p>
+      </div>
+
+      <div class="container3">
+        <input type="color" value="#aeaed0" name="color1" class="inputField color1">
+        <input type="color" value="#35d8ed" name="color1" class="inputField color2">
+      </div>
+
+      <h2>Your CSS Code:</h2>
+      <input type="text" class="inputField2">
+
+      <a href="3e7e666a211e34b1b89a9e31fdf5a8b1"><span>created by Ayo Codess &copy; 2021</span></a>
+    </div>
+
+    <script src="b99a878c08d8235b1c87df06de3a4e46"></script>
+  </body>
+</html>

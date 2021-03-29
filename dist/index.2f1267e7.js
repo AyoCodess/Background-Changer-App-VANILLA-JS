@@ -1,0 +1,2 @@
+!function(){const e=document.querySelector(".inputField2"),t=document.querySelector(".color1"),o=document.querySelector(".color2"),n=document.getElementById("bgColor"),r=function(){n.style.background="linear-gradient(to right bottom,"+t.value+","+o.value+")",e.value="linear-gradient(to right bottom,"+t.value+","+o.value+")"};t.addEventListener("input",r),o.addEventListener("input",r)}();
+//# sourceMappingURL=index.2f1267e7.js.map

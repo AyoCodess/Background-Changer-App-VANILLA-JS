@@ -1,7 +1,7 @@
 # Background Changer App
 
-This landing page features:
+Test out different backgrounds
 
 - Javascript
 - FlexBox only.
-- App link: https://the-simple-todo-app.netlify.app/
+- App link: https://bgchanger-ayo.netlify.app/
