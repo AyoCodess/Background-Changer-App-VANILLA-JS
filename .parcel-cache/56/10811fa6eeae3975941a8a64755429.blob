@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/index.c5ebeb1d.css">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="1151dfa8beef5a0de9be6bc6cfeed70c" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="9164ad3dce4f711314e61814995354b1">
 
     <title>BC APP</title>
   </head>
@@ -28,9 +28,9 @@
       <h2>Your CSS Code:</h2>
       <input type="text" class="inputField2">
 
-      <a href="https://github.com/AyoCodess/"><span>created by Ayo Codess &copy; 2021</span></a>
+      <a href="7ce0fc0de2818cc7423751cd815d849c"><span>created by Ayo Codess &copy; 2021</span></a>
     </div>
 
-    <script src="/index.b4f5078c.js"></script>
+    <script src="e71eb6aca88c8b11b5377ea3facdf59a"></script>
   </body>
 </html>
