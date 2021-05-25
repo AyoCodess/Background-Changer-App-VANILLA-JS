@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html id="bgColor" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/index.HASH_REF_21d970ea397a696cc2c902de595c3c0c.css">
+
+    <title>BC APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Background Changer App</h1>
+
+      <div class="container2">
+        <p>
+          Select two colours by clicking the color boxes below, the CSS code
+          will update automatically.
+        </p>
+      </div>
+
+      <div class="container3">
+        <input type="color" value="#aeaed0" name="color1" class="inputField color1">
+        <input type="color" value="#35d8ed" name="color1" class="inputField color2">
+      </div>
+
+      <h2>Your CSS Code:</h2>
+      <input type="text" class="inputField2">
+
+      <a href="https://github.com/AyoCodess/"><span>created by Ayo Codess &copy; 2021</span></a>
+    </div>
+
+    <script src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+  </body>
+</html>
